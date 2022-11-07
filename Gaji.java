@@ -8,7 +8,7 @@ public class Gaji extends Pegawai {
     }
 
     public void mailCheck() {
-        //Pada method ini terjadi overridding dikarenakan memiliki nama yang sama dengan method yang ada pada super class
+        //Pada method ini terjadi overridding dikarenakan memiliki nama yang sama dengan method yang ada pada super class sehingga terjadi upcasting
 
         System.out.println("Memeriksa Kelas Gaji dalam Surat ");
         System.out.println("Surat Tertuju Untuk " + getName() + "dengan gaji " + salary);
