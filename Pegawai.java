@@ -36,4 +36,4 @@ public class Pegawai {
     }
 }
 
-//Downcasting terjadi karena pada constructor superclass memiliki string dan menjadi referensi bagi super class gaji
+//Downcasting terjadi karena pada constructor superclass memiliki string dan menjadi referensi bagi subclass gaji
